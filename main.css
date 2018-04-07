@@ -1,0 +1,189 @@
+/*
+ *
+ * body config
+ *
+ */
+
+body {
+
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 25px;
+	margin: 0;
+	padding: 0;
+  min-width: 100%;
+	}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0.3em;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+/*
+ *
+ * header
+ *
+ */
+
+.header {
+  padding: 10px 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.hlogo {
+
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.header__inner {
+  font-family: 'Alegreya Sans SC';
+  font-size: 28px;
+  line-height: 1.2em;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/*
+ *
+ * mainpic
+ *
+ */
+
+ .imageintro {
+
+  background-color: #02b3e4;
+  padding: 10px 10px 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1%;;
+  margin-bottom: 1%;
+
+}
+
+/* article config
+*/
+
+.mytext {
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+
+/*
+ *
+ * sub header
+ *
+ */
+
+.Featured_Work {
+
+  font-family: 'Fascinate inline';
+  font-size: 32px;
+  line-height: 1.2em;
+  text-align: center;
+
+
+}
+/*
+ *
+ * elements container
+ *
+ */
+.threlements {
+  padding: 10px 10px 0 10px;
+  display: flex;
+  justify-content:center;
+  flex-wrap: nowrap;
+}
+
+/*
+ *
+ * item1
+ *
+ */
+
+.photoshop_image {
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1%;;
+  margin-bottom: 1%;
+}
+/*
+ *
+ * item2
+ *
+ */
+.max__image {
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1%;;
+  margin-bottom: 1%;
+}
+
+/*
+ *
+ * item3
+ *
+ */
+
+.css_image {
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1%;;
+  margin-bottom: 1%;
+}
+/*
+ *
+ * h4 properties
+ *
+ */
+.type1, .type2, .type3 {
+
+  font-family: 'Limelight';
+  font-size: 26px;
+  line-height: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+ *
+ * footer org
+ *
+ */
+
+.iconlist {
+  padding: 50px 0;
+  background-color: #02b3e4;
+  text-align: center;
+}
+.fooitem1, .fooitem2, .fooitem3, .fooitem4  {
+  list-style-type: none;
+  display: inline-block;
+}

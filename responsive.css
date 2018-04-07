@@ -1,0 +1,248 @@
+@media screen and (max-width: 450px) {
+
+html, body, main {
+  height: 100%;
+  width: 100%;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+  .header__title {
+    font-family: 'Faster One';
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .subtitle {
+    font-family: 'Fascinate inline';
+    font-size: 13px;
+  }
+
+.hlogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+}
+  .header__logo {
+  max-width: 75%;
+  }
+
+.imageintro {
+
+  background-color: #2d3c49;
+
+}
+
+.intro {
+
+  max-width: 100%;
+}
+
+.mytext {
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.threlements {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.photoshop_image {
+  width: 100%;
+  }
+
+.max__image {
+  width: 100%;
+  }
+
+.css_image {
+  width: 100%;
+  }
+
+.listed {
+
+  min-width: 100%;
+
+  }
+.iconlist {
+  background-color: #2d3c49;
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+.fooitem1, .fooitem2, .fooitem3, .fooitem4 {
+  width: 100%;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  }
+}
+
+@media screen and (min-width: 451px) {
+
+  html, body, main {
+    height: 100%;
+    width: 100%;
+  }
+
+.header__inner {
+    font-family: 'Cinzel Decorative',bold;
+    font-size: 22px;
+    line-height: 0.03em;
+  }
+
+.header__title {
+  line-height: 1.2em;
+}
+
+.imageintro {
+  background-color: #7d97ad;
+}
+
+.mytext {
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.subtitle {
+  font-family: 'Limelight';
+  font-size: 13px;
+  text-align: justify;
+}
+
+.hlogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  }
+
+.content {
+
+    background-color: #2d3c49;
+
+  }
+
+.threlements {
+    display: flex;
+    flex-wrap:wrap;
+    }
+
+.type2, .type3 {
+
+    width: 50%;
+    }
+
+.max__image {
+    max-width: 100%;
+    }
+
+.listed {
+    min-width: 100%;
+    }
+
+.iconlist {
+    background-color: #7d97ad;
+    display: flex;
+    flex-wrap: nowrap;
+
+    }
+.fooitem1, .fooitem2, .fooitem3, .fooitem4 {
+      width: 50%;
+      padding-right: 0.5em;
+      padding-left: 0.5em;
+      }
+
+}
+
+@media screen and (min-width: 800px) {
+
+  .header__inner {
+    font-family: 'Cinzel Decorative',bold;
+    font-size: 30px;
+    line-height: 0.03em;
+  }
+
+  .header__title {
+  line-height: 1.2em;
+  }
+
+.subtitle {
+    font-family: 'Limelight';
+    font-size: 26px;
+  }
+
+.threlements {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.imageintro {
+    background-color: #02b3e4;
+  }
+
+.myarticle {
+    justify-content: center;
+    align-items: center;
+  }
+
+.mytext {
+  font-family: 'Roboto';
+  font-size: 22px;
+  text-align: justify;
+  width: 780px;
+  }
+
+.iconlist li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.iconlist {
+  background-color: #02b3e4;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .mytext {
+  font-family: 'Roboto',fantasy;
+  font-size: 24px;
+  text-align: justify;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .iconlist li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+.iconlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  }
+}
